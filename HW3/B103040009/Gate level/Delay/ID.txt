@@ -1,0 +1,70 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : thumb
+Version: V-2023.12
+Date   : Thu Nov  7 11:22:03 2024
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: step1/IF_IR_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: step2/ID_Rm_Rs_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  thumb              ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  step1/IF_IR_reg_8_/CP (DFQD1BWP16P90LVT)                0.00       0.00 r
+  step1/IF_IR_reg_8_/Q (DFQD1BWP16P90LVT)                 0.05       0.05 r
+  step2/U24/ZN (INVD1BWP20P90) <-                         0.06       0.11 f
+  step2/n7301 (net)                                       0.00       0.11 f
+  step2/U413/Z (AN2D1BWP16P90LVT) <-                      0.02       0.14 f
+  step2/n2750 (net)                                       0.00       0.14 f
+  step2/U156/ZN (ND2D1BWP16P90LVT) <-                     0.01       0.15 r
+  step2/n232 (net)                                        0.00       0.15 r
+  step2/U84/Z (AN3D1BWP16P90LVT) <-                       0.07       0.21 r
+  step2/n1850 (net)                                       0.00       0.21 r
+  step2/U65/ZN (ND2D1BWP16P90LVT) <-                      0.02       0.24 f
+  step2/N423 (net)                                        0.00       0.24 f
+  step2/U165/ZN (OAI21D1BWP16P90LVT) <-                   0.01       0.25 r
+  step2/n1920 (net)                                       0.00       0.25 r
+  step2/U23/Z (AN3D1BWP16P90LVT) <-                       0.06       0.31 r
+  step2/n1 (net)                                          0.00       0.31 r
+  step2/U163/ZN (INR3D1BWP16P90LVT) <-                    0.02       0.33 f
+  step2/n1840 (net)                                       0.00       0.33 f
+  step2/U91/ZN (ND2D1BWP16P90LVT) <-                      0.01       0.34 r
+  step2/n1880 (net)                                       0.00       0.34 r
+  step2/U90/ZN (OAI21D1BWP16P90LVT) <-                    0.09       0.43 f
+  step2/n1480 (net)                                       0.00       0.43 f
+  step2/U1425/ZN (IOA21D1BWP16P90LVT) <-                  0.03       0.46 f
+  step2/n289 (net)                                        0.00       0.46 f
+  step2/ID_Rm_Rs_reg_0_/D (DFQD2BWP16P90LVT)              0.00       0.46 f
+  data arrival time                                                  0.46
+
+  clock clk (rise edge)                                   0.46       0.46
+  clock network delay (ideal)                             0.00       0.46
+  step2/ID_Rm_Rs_reg_0_/CP (DFQD2BWP16P90LVT)             0.00       0.46 r
+  library setup time                                      0.00       0.46
+  data required time                                                 0.46
+  --------------------------------------------------------------------------
+  data required time                                                 0.46
+  data arrival time                                                 -0.46
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

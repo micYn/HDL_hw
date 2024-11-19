@@ -1,0 +1,75 @@
+ 
+****************************************
+Report : area
+Design : hw2_pipe_clkgating
+Version: V-2023.12
+Date   : Thu Oct 17 18:37:50 2024
+****************************************
+
+Library(s) Used:
+
+    N16ADFP_StdCellss0p72vm40c_ccs (File: /cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/CCS/N16ADFP_StdCellss0p72vm40c_ccs.db)
+
+Number of ports:                          336
+Number of nets:                           808
+Number of cells:                          502
+Number of combinational cells:            445
+Number of sequential cells:                25
+Number of macros/black boxes:               0
+Number of buf/inv:                         82
+Number of references:                       9
+
+Combinational area:                174.804484
+Buf/Inv area:                       14.878081
+Noncombinational area:              28.200961
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   203.005445
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------------------------------
+hw2_pipe_clkgating                 203.0054    100.0    2.0218     0.0000  0.0000  hw2_pipe_clkgating
+clk_gate_C21                         0.8294      0.4    0.0000     0.8294  0.0000  SNPS_CLOCK_GATE_HIGH_hw2_pipe_clkgating
+fs                                  31.7261     15.6    4.1472     0.0000  0.0000  first_stage
+fs/add_31                            7.9834      3.9    7.9834     0.0000  0.0000  first_stage_DW01_add_0
+fs/dff8                             10.3680      5.1    0.0000     0.0000  0.0000  D_FF_8
+fs/dff8/ff_gen_0__ff_inst            1.2960      0.6    0.1555     1.1405  0.0000  D_FF_0
+fs/dff8/ff_gen_1__ff_inst            1.2960      0.6    0.1555     1.1405  0.0000  D_FF_25
+fs/dff8/ff_gen_2__ff_inst            1.2960      0.6    0.1555     1.1405  0.0000  D_FF_24
+fs/dff8/ff_gen_3__ff_inst            1.2960      0.6    0.1555     1.1405  0.0000  D_FF_23
+fs/dff8/ff_gen_4__ff_inst            1.2960      0.6    0.1555     1.1405  0.0000  D_FF_22
+fs/dff8/ff_gen_5__ff_inst            1.2960      0.6    0.1555     1.1405  0.0000  D_FF_21
+fs/dff8/ff_gen_6__ff_inst            1.2960      0.6    0.1555     1.1405  0.0000  D_FF_20
+fs/dff8/ff_gen_7__ff_inst            1.2960      0.6    0.1555     1.1405  0.0000  D_FF_19
+fs/sub_31                            9.2275      4.5    9.2275     0.0000  0.0000  first_stage_DW01_sub_0
+ss                                 168.4282     83.0    0.0000     0.0000  0.0000  second_stage
+ss/dff16                            20.9434     10.3    0.2074     0.0000  0.0000  D_FF_16
+ss/dff16/ff_gen_0__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_18
+ss/dff16/ff_gen_10__ff_inst          1.2960      0.6    0.1555     1.1405  0.0000  D_FF_6
+ss/dff16/ff_gen_11__ff_inst          1.2960      0.6    0.1555     1.1405  0.0000  D_FF_5
+ss/dff16/ff_gen_12__ff_inst          1.2960      0.6    0.1555     1.1405  0.0000  D_FF_4
+ss/dff16/ff_gen_13__ff_inst          1.2960      0.6    0.1555     1.1405  0.0000  D_FF_3
+ss/dff16/ff_gen_14__ff_inst          1.2960      0.6    0.1555     1.1405  0.0000  D_FF_2
+ss/dff16/ff_gen_15__ff_inst          1.2960      0.6    0.1555     1.1405  0.0000  D_FF_1
+ss/dff16/ff_gen_1__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_17
+ss/dff16/ff_gen_2__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_15
+ss/dff16/ff_gen_3__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_14
+ss/dff16/ff_gen_4__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_13
+ss/dff16/ff_gen_5__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_12
+ss/dff16/ff_gen_6__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_11
+ss/dff16/ff_gen_7__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_10
+ss/dff16/ff_gen_8__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_9
+ss/dff16/ff_gen_9__ff_inst           1.2960      0.6    0.1555     1.1405  0.0000  D_FF_7
+ss/mult_42                         147.4848     72.7  147.4848     0.0000  0.0000  second_stage_DW_mult_uns_2
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------------------------------
+Total                                                 174.8045    28.2010  0.0000
+
+1

@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1727438182.384713191, "rt":1.13, "ut":0.39, "st":0.17}}
+{"vcselab":{"timestamp_begin":1727438183.630540508, "rt":0.70, "ut":0.39, "st":0.12}}
+{"link":{"timestamp_begin":1727438184.416253139, "rt":0.30, "ut":0.20, "st":0.12}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1727438181.442766308}
+{"VCS_COMP_START_TIME": 1727438181.442766308}
+{"VCS_COMP_END_TIME": 1727438187.008661716}
+{"VCS_USER_OPTIONS": "-R -debug_access+all /home/B103040009_HDL/HW1/pre_sim/pre_sim_tb.v /home/B103040009_HDL/HW1/rtl/D_FF.v /home/B103040009_HDL/HW1/rtl/FA.v /home/B103040009_HDL/HW1/rtl/adder_structure.v /home/B103040009_HDL/HW1/rtl/adder_structure_reg.v /home/B103040009_HDL/HW1/rtl/adder_dataflow.v /home/B103040009_HDL/HW1/rtl/adder_dataflow_reg.v /home/B103040009_HDL/HW1/rtl/adder_behavior.v /home/B103040009_HDL/HW1/rtl/adder_behavior_reg.v +full64 +access+r +vcs+fsdbon +fsdb+mda +fsdbfile+6adder.fsdb +v2k"}
+{"vcs1": {"peak_mem": 265696}}
+{"vcselab": {"peak_mem": 153772}}

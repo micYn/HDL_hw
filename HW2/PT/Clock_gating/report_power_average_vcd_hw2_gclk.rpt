@@ -1,0 +1,49 @@
+****************************************
+Report : Averaged Power
+	-hierarchy
+Design : hw2_pipe_clkgating
+Version: V-2023.12
+Date   : Thu Oct 17 20:56:03 2024
+****************************************
+
+
+
+                                      Int      Switch   Leak     Total
+Hierarchy                             Power    Power    Power    Power    %
+----------------------------------------------------------------------------------
+hw2_pipe_clkgating                    1.30e-05 6.39e-06 1.75e-07 1.95e-05 100.0
+  ss (second_stage)                   9.31e-06 5.17e-06 1.52e-07 1.46e-05  74.9
+    mult_42 (second_stage_DW_mult_uns_2)
+                                      6.62e-06 4.99e-06 1.40e-07 1.18e-05  60.1
+    dff16 (D_FF_16)                   2.69e-06 1.76e-07 1.27e-08 2.88e-06  14.7
+      ff_gen_13__ff_inst (D_FF_3)     1.46e-07 7.07e-09 7.25e-10 1.54e-07   0.8
+      ff_gen_9__ff_inst (D_FF_7)      1.90e-07 7.07e-09 7.93e-10 1.97e-07   1.0
+      ff_gen_12__ff_inst (D_FF_4)     1.41e-07 7.07e-09 7.34e-10 1.49e-07   0.8
+      ff_gen_8__ff_inst (D_FF_9)      1.84e-07 7.07e-09 7.89e-10 1.91e-07   1.0
+      ff_gen_11__ff_inst (D_FF_5)     1.65e-07 7.07e-09 7.58e-10 1.73e-07   0.9
+      ff_gen_7__ff_inst (D_FF_10)     1.89e-07 7.07e-09 8.07e-10 1.96e-07   1.0
+      ff_gen_10__ff_inst (D_FF_6)     1.70e-07 7.07e-09 7.80e-10 1.78e-07   0.9
+      ff_gen_6__ff_inst (D_FF_11)     1.82e-07 7.07e-09 8.08e-10 1.90e-07   1.0
+      ff_gen_5__ff_inst (D_FF_12)     1.95e-07 7.07e-09 8.15e-10 2.03e-07   1.0
+      ff_gen_1__ff_inst (D_FF_17)     1.71e-07 7.07e-09 7.95e-10 1.79e-07   0.9
+      ff_gen_4__ff_inst (D_FF_13)     1.91e-07 7.07e-09 8.02e-10 1.99e-07   1.0
+      ff_gen_0__ff_inst (D_FF_18)     1.49e-07 7.07e-09 7.78e-10 1.57e-07   0.8
+      ff_gen_3__ff_inst (D_FF_14)     1.82e-07 7.07e-09 8.11e-10 1.90e-07   1.0
+      ff_gen_2__ff_inst (D_FF_15)     1.74e-07 7.07e-09 8.11e-10 1.82e-07   0.9
+      ff_gen_15__ff_inst (D_FF_1)     1.24e-07 7.07e-09 7.25e-10 1.32e-07   0.7
+      ff_gen_14__ff_inst (D_FF_2)     1.32e-07 7.07e-09 7.25e-10 1.40e-07   0.7
+  clk_gate_C21 (SNPS_CLOCK_GATE_HIGH_hw2_pipe_clkgating)
+                                      1.69e-07 2.62e-07 7.50e-12 4.31e-07   2.2
+  fs (first_stage)                    3.46e-06 9.26e-07 2.11e-08 4.40e-06  22.5
+    sub_31 (first_stage_DW01_sub_0)   5.04e-07 2.76e-07 5.90e-09 7.86e-07   4.0
+    add_31 (first_stage_DW01_add_0)   4.31e-07 1.57e-07 5.20e-09 5.93e-07   3.0
+    dff8 (D_FF_8)                     2.24e-06 3.56e-07 7.27e-09 2.60e-06  13.3
+      ff_gen_1__ff_inst (D_FF_25)     2.86e-07 4.84e-08 9.56e-10 3.35e-07   1.7
+      ff_gen_0__ff_inst (D_FF_0)      2.79e-07 8.51e-08 9.57e-10 3.65e-07   1.9
+      ff_gen_7__ff_inst (D_FF_19)     2.32e-07 6.82e-10 7.55e-10 2.33e-07   1.2
+      ff_gen_6__ff_inst (D_FF_20)     2.73e-07 2.80e-08 8.63e-10 3.02e-07   1.5
+      ff_gen_5__ff_inst (D_FF_21)     2.95e-07 5.46e-08 9.26e-10 3.50e-07   1.8
+      ff_gen_4__ff_inst (D_FF_22)     2.90e-07 4.03e-08 9.09e-10 3.31e-07   1.7
+      ff_gen_3__ff_inst (D_FF_23)     2.92e-07 4.84e-08 9.53e-10 3.41e-07   1.7
+      ff_gen_2__ff_inst (D_FF_24)     2.93e-07 5.04e-08 9.53e-10 3.45e-07   1.8
+1

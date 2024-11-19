@@ -1,0 +1,148 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : adder_structure_reg
+Version: V-2023.12
+Date   : Fri Sep 27 17:15:20 2024
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: b[0] (input port clocked by clk)
+  Endpoint: dff_cout/q_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_structure_reg
+                     ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                               0.000000   0.000000
+  clock network delay (ideal)                         0.000000   0.000000
+  input external delay                                0.000000   0.000000 r
+  b[0] (in)                                           0.000000   0.000000 r
+  adder_loop_0__genblk1_fa/b (FA_0)                   0.000000   0.000000 r
+  adder_loop_0__genblk1_fa/U3/Z (XOR2D1BWP16P90LVT)   0.021516   0.021516 f
+  adder_loop_0__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.021656   0.043173 f
+  adder_loop_0__genblk1_fa/c_out (FA_0)               0.000000   0.043173 f
+  adder_loop_1__genblk1_fa/c_in (FA_31)               0.000000   0.043173 f
+  adder_loop_1__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.023001   0.066173 f
+  adder_loop_1__genblk1_fa/c_out (FA_31)              0.000000   0.066173 f
+  adder_loop_2__genblk1_fa/c_in (FA_30)               0.000000   0.066173 f
+  adder_loop_2__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.023015   0.089189 f
+  adder_loop_2__genblk1_fa/c_out (FA_30)              0.000000   0.089189 f
+  adder_loop_3__genblk1_fa/c_in (FA_29)               0.000000   0.089189 f
+  adder_loop_3__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.023015   0.112204 f
+  adder_loop_3__genblk1_fa/c_out (FA_29)              0.000000   0.112204 f
+  adder_loop_4__genblk1_fa/c_in (FA_28)               0.000000   0.112204 f
+  adder_loop_4__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.023015   0.135219 f
+  adder_loop_4__genblk1_fa/c_out (FA_28)              0.000000   0.135219 f
+  adder_loop_5__genblk1_fa/c_in (FA_27)               0.000000   0.135219 f
+  adder_loop_5__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.023015   0.158235 f
+  adder_loop_5__genblk1_fa/c_out (FA_27)              0.000000   0.158235 f
+  adder_loop_6__genblk1_fa/c_in (FA_26)               0.000000   0.158235 f
+  adder_loop_6__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.023015   0.181250 f
+  adder_loop_6__genblk1_fa/c_out (FA_26)              0.000000   0.181250 f
+  adder_loop_7__genblk1_fa/c_in (FA_25)               0.000000   0.181250 f
+  adder_loop_7__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.023015   0.204265 f
+  adder_loop_7__genblk1_fa/c_out (FA_25)              0.000000   0.204265 f
+  adder_loop_8__genblk1_fa/c_in (FA_24)               0.000000   0.204265 f
+  adder_loop_8__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.023015   0.227281 f
+  adder_loop_8__genblk1_fa/c_out (FA_24)              0.000000   0.227281 f
+  adder_loop_9__genblk1_fa/c_in (FA_23)               0.000000   0.227281 f
+  adder_loop_9__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)   0.023015   0.250296 f
+  adder_loop_9__genblk1_fa/c_out (FA_23)              0.000000   0.250296 f
+  adder_loop_10__genblk1_fa/c_in (FA_22)              0.000000   0.250296 f
+  adder_loop_10__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.273311 f
+  adder_loop_10__genblk1_fa/c_out (FA_22)             0.000000   0.273311 f
+  adder_loop_11__genblk1_fa/c_in (FA_21)              0.000000   0.273311 f
+  adder_loop_11__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.296326 f
+  adder_loop_11__genblk1_fa/c_out (FA_21)             0.000000   0.296326 f
+  adder_loop_12__genblk1_fa/c_in (FA_20)              0.000000   0.296326 f
+  adder_loop_12__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.319342 f
+  adder_loop_12__genblk1_fa/c_out (FA_20)             0.000000   0.319342 f
+  adder_loop_13__genblk1_fa/c_in (FA_19)              0.000000   0.319342 f
+  adder_loop_13__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.342357 f
+  adder_loop_13__genblk1_fa/c_out (FA_19)             0.000000   0.342357 f
+  adder_loop_14__genblk1_fa/c_in (FA_18)              0.000000   0.342357 f
+  adder_loop_14__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.365372 f
+  adder_loop_14__genblk1_fa/c_out (FA_18)             0.000000   0.365372 f
+  adder_loop_15__genblk1_fa/c_in (FA_17)              0.000000   0.365372 f
+  adder_loop_15__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.388388 f
+  adder_loop_15__genblk1_fa/c_out (FA_17)             0.000000   0.388388 f
+  adder_loop_16__genblk1_fa/c_in (FA_16)              0.000000   0.388388 f
+  adder_loop_16__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.411403 f
+  adder_loop_16__genblk1_fa/c_out (FA_16)             0.000000   0.411403 f
+  adder_loop_17__genblk1_fa/c_in (FA_15)              0.000000   0.411403 f
+  adder_loop_17__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.434418 f
+  adder_loop_17__genblk1_fa/c_out (FA_15)             0.000000   0.434418 f
+  adder_loop_18__genblk1_fa/c_in (FA_14)              0.000000   0.434418 f
+  adder_loop_18__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.457434 f
+  adder_loop_18__genblk1_fa/c_out (FA_14)             0.000000   0.457434 f
+  adder_loop_19__genblk1_fa/c_in (FA_13)              0.000000   0.457434 f
+  adder_loop_19__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.480449 f
+  adder_loop_19__genblk1_fa/c_out (FA_13)             0.000000   0.480449 f
+  adder_loop_20__genblk1_fa/c_in (FA_12)              0.000000   0.480449 f
+  adder_loop_20__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.503464 f
+  adder_loop_20__genblk1_fa/c_out (FA_12)             0.000000   0.503464 f
+  adder_loop_21__genblk1_fa/c_in (FA_11)              0.000000   0.503464 f
+  adder_loop_21__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.526480 f
+  adder_loop_21__genblk1_fa/c_out (FA_11)             0.000000   0.526480 f
+  adder_loop_22__genblk1_fa/c_in (FA_10)              0.000000   0.526480 f
+  adder_loop_22__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.549495 f
+  adder_loop_22__genblk1_fa/c_out (FA_10)             0.000000   0.549495 f
+  adder_loop_23__genblk1_fa/c_in (FA_9)               0.000000   0.549495 f
+  adder_loop_23__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023015   0.572510 f
+  adder_loop_23__genblk1_fa/c_out (FA_9)              0.000000   0.572510 f
+  adder_loop_24__genblk1_fa/c_in (FA_8)               0.000000   0.572510 f
+  adder_loop_24__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023407   0.595917 f
+  adder_loop_24__genblk1_fa/c_out (FA_8)              0.000000   0.595917 f
+  adder_loop_25__genblk1_fa/c_in (FA_7)               0.000000   0.595917 f
+  adder_loop_25__genblk1_fa/U1/Z (AO22D1BWP16P90LVT)  0.023310   0.619228 f
+  adder_loop_25__genblk1_fa/c_out (FA_7)              0.000000   0.619228 f
+  adder_loop_26__genblk1_fa/c_in (FA_6)               0.000000   0.619228 f
+  adder_loop_26__genblk1_fa/U2/ZN (ND2D1BWP16P90LVT)  0.007656   0.626883 r
+  adder_loop_26__genblk1_fa/U3/ZN (ND2D1BWP16P90LVT)  0.012444   0.639327 f
+  adder_loop_26__genblk1_fa/c_out (FA_6)              0.000000   0.639327 f
+  adder_loop_27__genblk1_fa/c_in (FA_5)               0.000000   0.639327 f
+  adder_loop_27__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.024183   0.663510 f
+  adder_loop_27__genblk1_fa/c_out (FA_5)              0.000000   0.663510 f
+  adder_loop_28__genblk1_fa/c_in (FA_4)               0.000000   0.663510 f
+  adder_loop_28__genblk1_fa/U2/Z (AO22D1BWP16P90LVT)  0.023518   0.687029 f
+  adder_loop_28__genblk1_fa/c_out (FA_4)              0.000000   0.687029 f
+  adder_loop_29__genblk1_fa/c_in (FA_3)               0.000000   0.687029 f
+  adder_loop_29__genblk1_fa/U1/Z (AO22D1BWP16P90LVT)  0.023311   0.710339 f
+  adder_loop_29__genblk1_fa/c_out (FA_3)              0.000000   0.710339 f
+  adder_loop_30__genblk1_fa/c_in (FA_2)               0.000000   0.710339 f
+  adder_loop_30__genblk1_fa/U2/ZN (ND2D1BWP16P90LVT)  0.007656   0.717995 r
+  adder_loop_30__genblk1_fa/U3/ZN (ND2D1BWP16P90LVT)  0.012212   0.730207 f
+  adder_loop_30__genblk1_fa/c_out (FA_2)              0.000000   0.730207 f
+  adder_loop_31__genblk1_fa/c_in (FA_1)               0.000000   0.730207 f
+  adder_loop_31__genblk1_fa/U1/Z (AO22D1BWP16P90)     0.029685   0.759892 f
+  adder_loop_31__genblk1_fa/c_out (FA_1)              0.000000   0.759892 f
+  dff_cout/d (D_FF_0)                                 0.000000   0.759892 f
+  dff_cout/q_reg/D (DFQD2BWP16P90LVT)                 0.000000   0.759892 f
+  data arrival time                                              0.759892
+
+  clock clk (rise edge)                               0.766665   0.766665
+  clock network delay (ideal)                         0.000000   0.766665
+  dff_cout/q_reg/CP (DFQD2BWP16P90LVT)                0.000000   0.766665 r
+  library setup time                                  -0.003240  0.763425
+  data required time                                             0.763425
+  --------------------------------------------------------------------------
+  data required time                                             0.763425
+  data arrival time                                              -0.759892
+  --------------------------------------------------------------------------
+  slack (MET)                                                    0.003533
+
+
+1

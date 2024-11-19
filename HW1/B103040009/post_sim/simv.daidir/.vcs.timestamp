@@ -1,0 +1,122 @@
+6        
+0 /home/B103040009_HDL/HW1/gate_level/adder_behavior/time_opt/adder_behavior.sdf_c
+0 /home/B103040009_HDL/HW1/gate_level/adder_behavior_reg/time_opt/adder_behavior_reg.sdf_c
+0 /home/B103040009_HDL/HW1/gate_level/adder_dataflow/time_opt/adder_dataflow.sdf_c
+0 /home/B103040009_HDL/HW1/gate_level/adder_dataflow_reg/time_opt/adder_dataflow_reg.sdf_c
+0 /home/B103040009_HDL/HW1/gate_level/adder_structure/time_opt/adder_structure.sdf_c
+0 /home/B103040009_HDL/HW1/gate_level/adder_structure_reg/time_opt/adder_structure_reg.sdf_c
+44
++access+r
++fsdb+mda
++fsdbfile+6adder.fsdb
++full64
++itf+/usr/cad/synopsys/vcs/2023.12/linux/lib/vcsdp_lite.tab
++neg_tchk
++vcs+fsdbon
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/usr/cad/synopsys/vcs/2023.12/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /usr/cad/synopsys/vcs/2023.12/linux/lib/libvirsim.so /usr/cad/synopsys/vcs/2023.12/linux/lib/liberrorinf.so /usr/cad/synopsys/vcs/2023.12/linux/lib/libsnpsmalloc.so /usr/cad/synopsys/vcs/2023.12/linux/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/cad/synopsys/vcs/2023.12/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX/pli.a /usr/cad/synopsys/vcs/2023.12/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/usr/cad/synopsys/vcs/2023.12/include
+-Mxllcflags=
+-P
+-Xvcs_run_simv=1
+-debug_access
+-debug_access+all
+-error=noMPD
+-fsdb
+-gen_obj
+-picarchive
+/usr/cad/synopsys/vcs/2023.12/linux/bin/vcs1
+/usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX/verdi.tab
+/home/B103040009_HDL/HW1/post_sim/post_sim_tb.v
+/home/B103040009_HDL/HW1/gate_level/adder_behavior/time_opt/adder_behavior.v
+/home/B103040009_HDL/HW1/gate_level/adder_behavior_reg/time_opt/adder_behavior_reg.v
+/home/B103040009_HDL/HW1/gate_level/adder_dataflow/time_opt/adder_dataflow.v
+/home/B103040009_HDL/HW1/gate_level/adder_dataflow_reg/time_opt/adder_dataflow_reg.v
+/home/B103040009_HDL/HW1/gate_level/adder_structure/time_opt/adder_structure.v
+/home/B103040009_HDL/HW1/gate_level/adder_structure_reg/time_opt/adder_structure_reg.v
+/cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/VERILOG/N16ADFP_StdCell.v
+43
+XDG_SESSION_ID=5375
+XDG_RUNTIME_DIR=/run/user/1006
+XDG_DATA_DIRS=/home/B103040009_HDL/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=32
+VERDI_HOME=/usr/cad/synopsys/verdi/2023.12
+VENDOR=unknown
+VCS_STATIC_HOME=/usr/cad/synopsys/vcs/2023.12/vcfca
+VCS_PYTHON3=/usr/cad/synopsys/vcs/2023.12/linux/bin/Python-3.6.1/bin/python3
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/usr/cad/synopsys/vcs/2023.12
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_CC=gcc
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TOOL_HOME=/usr/cad/synopsys/vcs/2023.12/linux
+SYN_MAN_DIR=/usr/cad/synopsys/lc/2023.12//doc/lc/man
+SYNOPSYS_LC_ROOT=/usr/cad/synopsys/lc/cur
+SYNOPSYS=/usr/cad/synopsys/formality/cur
+SSH_TTY=/dev/pts/5
+SSH_CONNECTION=140.117.248.148 59117 140.117.168.154 22
+SSH_CLIENT=140.117.248.148 59117 22
+SNPS_VCS_PYTHON3=/usr/cad/synopsys/vcs/2023.12/linux/bin/Python-3.6.1/bin/python3
+SNPS_VCS_CLANG_PATH=/usr/cad/synopsys/vcs/2023.12/linux/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SHLIB_PATH=/usr/cad/synopsys/verdi/2023.12/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX64/::/usr/cad/synopsys/verdi/2023.12/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX64/::/usr/cad/synopsys/verdi/2023.12/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX64/::/usr/cad/synopsys/verdi/2023.12/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX64/:
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=140.117.248.148
+OVA_UUM=0
+OSTYPE=linux
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GROUP=B103040009_HDL
+FORMALITY=/usr/cad/synopsys/formality/cur
+0
+0
+16
+1727430450 /home/B103040009_HDL/HW1/gate_level/adder_structure_reg/time_opt/adder_structure_reg.sdf
+1727421119 /home/B103040009_HDL/HW1/gate_level/adder_structure/time_opt/adder_structure.sdf
+1727431320 /home/B103040009_HDL/HW1/gate_level/adder_dataflow_reg/time_opt/adder_dataflow_reg.sdf
+1727424394 /home/B103040009_HDL/HW1/gate_level/adder_dataflow/time_opt/adder_dataflow.sdf
+1727432079 /home/B103040009_HDL/HW1/gate_level/adder_behavior_reg/time_opt/adder_behavior_reg.sdf
+1727424988 /home/B103040009_HDL/HW1/gate_level/adder_behavior/time_opt/adder_behavior.sdf
+1725945059 /cad/CBDK/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/VERILOG/N16ADFP_StdCell.v
+1727430450 /home/B103040009_HDL/HW1/gate_level/adder_structure_reg/time_opt/adder_structure_reg.v
+1727421119 /home/B103040009_HDL/HW1/gate_level/adder_structure/time_opt/adder_structure.v
+1727431320 /home/B103040009_HDL/HW1/gate_level/adder_dataflow_reg/time_opt/adder_dataflow_reg.v
+1727424394 /home/B103040009_HDL/HW1/gate_level/adder_dataflow/time_opt/adder_dataflow.v
+1727432079 /home/B103040009_HDL/HW1/gate_level/adder_behavior_reg/time_opt/adder_behavior_reg.v
+1727424988 /home/B103040009_HDL/HW1/gate_level/adder_behavior/time_opt/adder_behavior.v
+1727437092 /home/B103040009_HDL/HW1/post_sim/post_sim_tb.v
+1700046855 /usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX/verdi.tab
+1701102453 /usr/cad/synopsys/vcs/2023.12/linux/lib/vcsdp_lite.tab
+4
+1701104144 /usr/cad/synopsys/vcs/2023.12/linux/lib/libvirsim.so
+1701103500 /usr/cad/synopsys/vcs/2023.12/linux/lib/liberrorinf.so
+1701103368 /usr/cad/synopsys/vcs/2023.12/linux/lib/libsnpsmalloc.so
+1701103830 /usr/cad/synopsys/vcs/2023.12/linux/lib/libvfs.so
+1727437116 simv.daidir
+-1 partitionlib

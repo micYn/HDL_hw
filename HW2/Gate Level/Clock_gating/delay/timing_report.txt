@@ -1,0 +1,76 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : hw2_pipe_clkgating
+Version: V-2023.12
+Date   : Thu Oct 17 18:37:50 2024
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: fs/dff8/ff_gen_7__ff_inst/q_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ss/dff16/ff_gen_14__ff_inst/q_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hw2_pipe_clkgating ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  fs/dff8/ff_gen_7__ff_inst/q_reg/CP (DFCNQD2BWP16P90LVT)
+                                                          0.00       0.00 r
+  fs/dff8/ff_gen_7__ff_inst/q_reg/Q (DFCNQD2BWP16P90LVT)
+                                                          0.05       0.05 f
+  fs/dff8/ff_gen_7__ff_inst/q (D_FF_19)                   0.00       0.05 f
+  fs/dff8/q[7] (D_FF_8)                                   0.00       0.05 f
+  fs/first_stage_result[7] (first_stage)                  0.00       0.05 f
+  ss/sum[7] (second_stage)                                0.00       0.05 f
+  ss/mult_42/b[7] (second_stage_DW_mult_uns_2)            0.00       0.05 f
+  ss/mult_42/U480/ZN (CKND2BWP16P90LVT)                   0.01       0.05 r
+  ss/mult_42/U331/ZN (CKND2D4BWP16P90LVT)                 0.01       0.06 f
+  ss/mult_42/U545/ZN (ND2D2BWP16P90LVT)                   0.01       0.07 r
+  ss/mult_42/U454/Z (OR2D2BWP16P90LVT)                    0.01       0.08 r
+  ss/mult_42/U455/ZN (ND2D4BWP16P90LVT)                   0.01       0.09 f
+  ss/mult_42/U338/ZN (ND2D4BWP16P90LVT)                   0.01       0.09 r
+  ss/mult_42/U340/ZN (ND3D4BWP16P90LVT)                   0.01       0.10 f
+  ss/mult_42/U343/ZN (CKND2BWP16P90LVT)                   0.01       0.11 r
+  ss/mult_42/U447/ZN (AOAI211D2BWP16P90LVT)               0.01       0.12 f
+  ss/mult_42/U539/Z (XOR2D4BWP16P90LVT)                   0.02       0.14 r
+  ss/mult_42/U437/Z (XOR2D2BWP16P90LVT)                   0.02       0.16 f
+  ss/mult_42/U547/ZN (NR2D2BWP16P90LVT)                   0.01       0.17 r
+  ss/mult_42/U537/ZN (OAI21D2BWP16P90LVT)                 0.01       0.19 f
+  ss/mult_42/U626/ZN (AOI21D1BWP16P90LVT)                 0.01       0.20 r
+  ss/mult_42/U520/ZN (OAI21D1BWP16P90LVT)                 0.01       0.21 f
+  ss/mult_42/U625/ZN (XNR2D1BWP16P90LVT)                  0.02       0.23 r
+  ss/mult_42/product[14] (second_stage_DW_mult_uns_2)     0.00       0.23 r
+  ss/dff16/d[14] (D_FF_16)                                0.00       0.23 r
+  ss/dff16/ff_gen_14__ff_inst/d (D_FF_2)                  0.00       0.23 r
+  ss/dff16/ff_gen_14__ff_inst/q_reg/D (DFCNQD2BWP16P90LVT)
+                                                          0.00       0.23 r
+  data arrival time                                                  0.23
+
+  clock clk (rise edge)                                   0.24       0.24
+  clock network delay (ideal)                             0.00       0.24
+  ss/dff16/ff_gen_14__ff_inst/q_reg/CP (DFCNQD2BWP16P90LVT)
+                                                          0.00       0.24 r
+  library setup time                                     -0.01       0.23
+  data required time                                                 0.23
+  --------------------------------------------------------------------------
+  data required time                                                 0.23
+  data arrival time                                                 -0.23
+  --------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                      0.00
+
+
+1

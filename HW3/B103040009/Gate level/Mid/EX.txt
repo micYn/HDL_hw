@@ -1,0 +1,116 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : thumb
+Version: V-2023.12
+Date   : Thu Nov  7 11:34:47 2024
+****************************************
+
+Operating Conditions: ss0p72vm40c   Library: N16ADFP_StdCellss0p72vm40c_ccs
+Wire Load Model Mode: top
+
+  Startpoint: step2/ID_imm_offset_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: step3/Z_Flag_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  thumb              ZeroWireload          N16ADFP_StdCellss0p72vm40c_ccs
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  step2/ID_imm_offset_reg_3_/CP (DFQD2BWP16P90LVT)        0.00       0.00 r
+  step2/ID_imm_offset_reg_3_/Q (DFQD2BWP16P90LVT)         0.04       0.04 f
+  step3/U2238/ZN (CKND1BWP16P90LVT) <-                    0.04       0.08 r
+  step3/n3201 (net)                                       0.00       0.08 r
+  step3/U524/ZN (INVD1BWP16P90) <-                        0.06       0.14 f
+  step3/n32001 (net)                                      0.00       0.14 f
+  step3/U4428/Z (OR4D1BWP16P90) <-                        0.05       0.19 f
+  step3/N562 (net)                                        0.00       0.19 f
+  step3/U1608/ZN (XNR2D1BWP16P90LVT) <-                   0.03       0.22 r
+  step3/n2119 (net)                                       0.00       0.22 r
+  step3/U432/Z (BUFFD2BWP16P90LVT) <-                     0.03       0.25 r
+  step3/n3038 (net)                                       0.00       0.25 r
+  step3/U93/ZN (OAI222D1BWP16P90) <-                      0.04       0.29 f
+  step3/n2447 (net)                                       0.00       0.29 f
+  step3/U91/ZN (AOI222D1BWP16P90) <-                      0.05       0.35 r
+  step3/n2421 (net)                                       0.00       0.35 r
+  step3/U1304/ZN (OAI222D1BWP16P90LVT) <-                 0.03       0.38 f
+  step3/n2382 (net)                                       0.00       0.38 f
+  step3/U734/ZN (AOI222D1BWP16P90LVT) <-                  0.03       0.41 r
+  step3/n2351 (net)                                       0.00       0.41 r
+  step3/U732/ZN (OAI222D1BWP16P90LVT) <-                  0.03       0.44 f
+  step3/n2336 (net)                                       0.00       0.44 f
+  step3/U735/ZN (AOI222D1BWP16P90LVT) <-                  0.03       0.47 r
+  step3/n2307 (net)                                       0.00       0.47 r
+  step3/U713/ZN (OAI222D1BWP16P90LVT) <-                  0.03       0.50 f
+  step3/n2281 (net)                                       0.00       0.50 f
+  step3/U1285/ZN (AOI222D1BWP16P90LVT) <-                 0.03       0.53 r
+  step3/n2255 (net)                                       0.00       0.53 r
+  step3/U736/ZN (OAI222D1BWP16P90LVT) <-                  0.03       0.56 f
+  step3/n2232 (net)                                       0.00       0.56 f
+  step3/U801/ZN (AOI222D1BWP16P90LVT) <-                  0.03       0.59 r
+  step3/n2211 (net)                                       0.00       0.59 r
+  step3/U406/ZN (OAI222D1BWP16P90) <-                     0.05       0.64 f
+  step3/n2193 (net)                                       0.00       0.64 f
+  step3/U129/ZN (AOI222D1BWP16P90LVT) <-                  0.03       0.67 r
+  step3/n2192 (net)                                       0.00       0.67 r
+  step3/U797/ZN (OAI222D1BWP16P90LVT) <-                  0.03       0.70 f
+  step3/n2182 (net)                                       0.00       0.70 f
+  step3/U798/ZN (AOI222D1BWP16P90LVT) <-                  0.03       0.73 r
+  step3/n2174 (net)                                       0.00       0.73 r
+  step3/U799/ZN (OAI222D1BWP16P90LVT) <-                  0.03       0.76 f
+  step3/n2180 (net)                                       0.00       0.76 f
+  step3/U403/ZN (INVD1BWP16P90LVT) <-                     0.01       0.77 r
+  step3/n37140 (net)                                      0.00       0.77 r
+  step3/U2242/ZN (OAI221D1BWP16P90LVT) <-                 0.02       0.79 f
+  step3/N1600 (net)                                       0.00       0.79 f
+  step3/U3703/ZN (AOI222D1BWP16P90) <-                    0.03       0.82 r
+  step3/n754 (net)                                        0.00       0.82 r
+  step3/U3704/ZN (AOI21D1BWP16P90) <-                     0.02       0.84 f
+  step3/n756 (net)                                        0.00       0.84 f
+  step3/U3705/ZN (AOI211D1BWP16P90) <-                    0.02       0.87 r
+  step3/n759 (net)                                        0.00       0.87 r
+  step3/U1895/Z (AN3D1BWP16P90LVT) <-                     0.02       0.89 r
+  step3/n57 (net)                                         0.00       0.89 r
+  step3/U4182/Z (MUX2D1BWP16P90LVT) <-                    0.02       0.90 r
+  step3/n33660 (net)                                      0.00       0.90 r
+  step3/U195/ZN (INVD1BWP16P90LVT) <-                     0.01       0.91 f
+  step3/n968 (net)                                        0.00       0.91 f
+  step3/U4229/ZN (NR4D1BWP16P90LVT) <-                    0.02       0.93 r
+  step3/n3268 (net)                                       0.00       0.93 r
+  step3/U4231/ZN (ND4D1BWP16P90LVT) <-                    0.01       0.94 f
+  step3/n3281 (net)                                       0.00       0.94 f
+  step3/U4237/ZN (NR4D1BWP16P90LVT) <-                    0.01       0.96 r
+  step3/n3284 (net)                                       0.00       0.96 r
+  step3/U4239/ZN (ND3D1BWP16P90LVT) <-                    0.01       0.97 f
+  step3/n3285 (net)                                       0.00       0.97 f
+  step3/U4240/ZN (AOI21D1BWP16P90LVT) <-                  0.01       0.98 r
+  step3/n32870 (net)                                      0.00       0.98 r
+  step3/U4241/Z (MUX2D1BWP16P90LVT) <-                    0.02       1.00 r
+  step3/n28100 (net)                                      0.00       1.00 r
+  step3/Z_Flag_reg/D (DFQD2BWP16P90LVT)                   0.00       1.00 r
+  data arrival time                                                  1.00
+
+  clock clk (rise edge)                                   1.01       1.01
+  clock network delay (ideal)                             0.00       1.01
+  step3/Z_Flag_reg/CP (DFQD2BWP16P90LVT)                  0.00       1.01 r
+  library setup time                                     -0.01       1.00
+  data required time                                                 1.00
+  --------------------------------------------------------------------------
+  data required time                                                 1.00
+  data arrival time                                                 -1.00
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
